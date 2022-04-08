@@ -1,0 +1,2537 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://cmrdb.fysik.dtu.dk/c2db/# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+
+<!-- jQuery -->
+<script src="./C2DB-1_files/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<!-- jQuery UI -->
+<script src="./C2DB-1_files/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+<!-- Jsmol must be imported BEFORE bootstrap -->
+<script src="./C2DB-1_files/JSmol.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="./C2DB-1_files/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="./C2DB-1_files/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="./C2DB-1_files/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- jQuery CSS -->
+<link rel="stylesheet" href="./C2DB-1_files/jquery-ui.min.css">
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="./C2DB-1_files/font-awesome.min.css">
+
+<!-- Custom Style -->
+<link rel="stylesheet" href="./C2DB-1_files/style.css">
+
+<style>
+  .popover{
+      max-width: 1000px;
+      z-index: 6;
+  }
+
+  #appdiv{
+      position: relative;
+      z-index: 5;
+  }
+</style>
+<script>
+$(document).ready(function () {
+
+    $(function () {
+        $('[data-toggle="popover"]').popover({
+            container: 'body'
+        });
+    });
+
+});
+
+</script>
+
+<script src="./C2DB-1_files/search.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',
+			  function() {
+			      update_table(88, 'query', '0');
+			      },
+			  false);
+</script>
+
+
+<title>
+C2DB
+</title>
+
+  <style type="text/css">:root topadblock, :root span[id^="ezoic-pub-ad-placeholder-"], :root mq-programmatic-ad, :root div[id^="zergnet-widget"], :root div[id^="traffective-ad-"], :root div[id^="taboola-stream-"], :root div[id^="sticky_ad_"], :root div[id^="rc-widget-"], :root div[id^="proadszone-"], :root div[id^="lazyad-"], :root div[id^="js-dfp-"], :root div[id^="gtm-ad-"], :root div[id^="google_dfp_"], :root div[id^="ezoic-pub-ad-"], :root div[id^="div-adtech-ad-"], :root div[id^="dfp-slot-"], :root div[id^="dfp-ad-"], :root div[id^="code_ads_"], :root div[id^="banner-ad-"], :root div[id^="advt-"], :root div[id^="advads_"], :root div[id^="advads-"], :root div[id^="adspot-"], :root div[id^="adrotate_widgets-"], :root div[id^="adngin-"], :root div[id^="adfox_"], :root div[id^="ad_script_"], :root div[id^="ad_rect_"], :root div[id^="ad_position_"], :root div[id^="ad-server-"], :root div[id^="ad-inserter-"], :root div[id^="ad-cid-"], :root div[id^="_vdo_ads_player_ai_"], :root div[data-test-id="AdDisplayWrapper"], :root div[data-subscript="Advertising"], :root div[data-spotim-slot], :root div[data-role="sidebarAd"], :root div[data-native_ad], :root div[data-mediatype="advertising"], :root div[data-insertion], :root div[data-id-advertdfpconf], :root div[data-dfp-id], :root hl-adsense, :root div[data-contentexchange-widget], :root div[data-content="Advertisement"], :root div[data-adunit], :root div[data-adunit-path], :root div[data-before-content="advertisement"], :root div[data-adservice-param-tagid="contentad"], :root div[data-adname], :root div[data-ad-wrapper], :root div[data-ad-underplayer], :root div[data-ad-placeholder], :root div[class^="sp-adslot-"], :root div[class^="s-dfp-"], :root div[class^="proadszone-"], :root div[class^="pane-google-admanager-"], :root div[class^="native-ad-"], :root div[class^="lifeOnwerAd"], :root div[class^="largeRectangleAd_"], :root div[class^="kiwiad-popup"], :root div[class^="kiwiad-desktop"], :root div[class^="index_adBeforeContent_"], :root div[class^="index_adAfterContent_"], :root div[class^="index__adWrapper"], :root div[class^="block-openx-"], :root div[class^="backfill-taboola-home-slot-"], :root div[class^="articleAdUnitMPU_"], :root div[class^="advertisement-desktop"], :root div[class^="adunit_"], :root div[class^="adsbutt_wrapper_"], :root div[class^="ads-partner-"], :root div[class^="adpubs-"], :root div[class^="adbanner_"], :root div[class^="ad_position_"], :root div[class^="SponsoredAds"], :root div[class^="ResponsiveAd-"], :root div[class^="PreAd_"], :root div[class^="Display_displayAd"], :root div[class^="Directory__footerAds"], :root div[class^="Component-dfp-"], :root div[class^="AdhesionAd_"], :root div[class^="Ad__bigBox"], :root a[href^="https://go.ebrokerserve.com/"], :root a[href^="http://axdsz.pro/"], :root div[aria-label="Ads"], :root a[href^="http://lp.ezdownloadpro.info/"], :root a[href^="http://uploaded.net/ref/"], :root aside[id^="advads_ad_widget-"], :root aside[id^="adrotate_widgets-"], :root a[href^="https://ad.doubleclick.net/"], :root app-advertisement, :root amp-ad-custom, :root [data-ad-width], :root [id*="MGWrap"], :root ad-desktop-sidebar, :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root div[id^="div-ads-"], :root a[href^="http://at.atwola.com/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="https://www.vfreecams.com/in/?track="], :root a[href^="https://www.share-online.biz/affiliate/"], :root a[href^="https://www.securegfm.com/"], :root a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"], :root DFP-AD, :root a[href^="//porngames.adult/?SID="], :root a[href^="https://www.oneclickroot.com/?tap_a="] > img, :root a[href^="https://www.oboom.com/ad/"], :root a[href^="https://www.nudeidols.com/cams/"], :root a[href^="https://www.mypornstarcams.com/landing/click/"], :root a[href^="https://www.mrskin.com/account/"], :root div[data-adzone], :root a[href^="https://www.iyalc.com/"], :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="https://www.gambling-affiliation.com/cpc/"], :root a[href^="http://webgirlz.online/landing/"], :root a[href^="https://www.g4mz.com/"], :root a[href^="https://www.dollps.com/?track="], :root a[href^="https://www.clicktraceclick.com/"], :root a[href^="https://www.camsoda.com/enter.php?id="], :root a[href^="https://www.brazzersnetwork.com/landing/"], :root a[href^="https://www.bebi.com"], :root .card-captioned.crd > .crd--cnt > .s2nPlayer, :root a[href^="https://www.arthrozene.com/"][href*="?tid="], :root a[href^="https://www.adskeeper.co.uk/"], :root a[href^="https://t.grtyi.com/"], :root a[href^="https://wittered-mainging.com/"], :root a[href^="http://farm.plista.com/pets"], :root a[href^="https://windscribe.com/promo/"], :root a[href^="http://k2s.cc/code/"], :root a[href^="https://webroutetrk.com/"], :root [href^="/ucdownload.php"], :root a[href^="https://wantopticalfreelance.com/"], :root amp-embed[type="taboola"], :root a[href^="http://c43a3cd8f99413891.com/"], :root a[href^="https://trust.zone/go/r.php?RID="], :root div[data-ad-targeting], :root a[href^="https://trk.moviesflix4k.xyz/"], :root a[href^="https://trf.bannerator.com/"], :root a[href^="https://bestcond1tions.com/"], :root a[href^="http://go.247traffic.com/"], :root a[href^="https://trappist-1d.com/"], :root a[href^="http://anonymous-net.com/"], :root a[href^="https://transfer.xe.com/signup/track/redirect?"], :root a[href^="https://vo2.qrlsx.com/"], :root a[href^="https://tracking.truthfinder.com/?a="], :root a[href^="https://tracking.gitads.io/"], :root a[href^="https://go.xxxjmp.com/"], :root a[href^="https://tracking.avapartner.com/"], :root a[href^="https://track.ultravpn.com/"], :root a[href^="https://track.interactivegf.com/"], :root a[href^="https://vlnk.me/"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root a[href^="https://track.healthtrader.com/"], :root a[href^="http://greensmoke.com/"], :root a[href^="https://track.effiliation.com/servlet/effi.click?"] > img, :root a[href^="https://track.clickmoi.xyz/"], :root a[href^="https://track.afcpatrk.com/"], :root a[href^="https://control.trafficfabrik.com/"], :root a[href^="https://track.52zxzh.com/"], :root a[href^="https://axdsz.pro/"], :root a[href^="https://tour.mrskin.com/"], :root a[href^="http://www.greenmangaming.com/?tap_a="], :root a[href^="https://tm-offers.gamingadult.com/"], :root a[href^="https://t.hrtyj.com/"], :root a[href^="https://t.adating.link/"], :root a[href^="https://squren.com/rotator/?atomid="], :root div[id^="ad-div-"], :root a[href^="https://secure.eveonline.com/ft/?aid="], :root [href^="https://mypillow.com/"] > img, :root a[href^="https://www.sheetmusicplus.com/?aff_id="], :root div[class^="pane-adsense-managed-"], :root a[href^="https://www.bang.com/?aff="], :root a[href^="https://secure.bstlnk.com/"], :root div[class^="index_displayAd_"], :root a[href^="http://adultgames.xxx/"], :root a[href^="http://semi-cod.com/clicks/"], :root a[href^="https://s.zlink2.com/"], :root div[class^="kiwi-ad-wrapper"], :root a[href^="https://rev.adsession.com/"], :root a[href^="https://someperceptionparade.com/"], :root a[href^="https://refpasrasw.world/"], :root div[data-google-query-id], :root a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"], :root a[href^="https://refpaexhil.top/"], :root a[href^="https://reachtrgt.com/"], :root [href^="http://advertisesimple.info/"], :root a[href^="https://www.friendlyduck.com/AF_"], :root a[href^="https://queersodadults.com/"], :root div[id^="yandex_ad"], :root a[href^="https://www.hotgirls4fuck.com/"], :root a[href^="https://www.pornhat.com/"][rel="nofollow"], :root AD-SLOT, :root a[href^="https://pubads.g.doubleclick.net/"], :root a[href^="https://prf.hn/click/"][href*="/camref:"] > img, :root a[href^="http://www.my-dirty-hobby.com/?sub="], :root a[href^="https://porndeals.com/?track="], :root a[href^="https://pcm.bannerator.com/"], :root a[href^="https://offerforge.net/"], :root a[href^="https://track.wg-aff.com"], :root a[href^="https://nutrientassumptionclaims.com/"], :root a[href^="https://ndt5.net/"], :root a[href^="https://natour.naughtyamerica.com/track/"], :root a[href^="https://myusenet.xyz/"], :root a[href^="https://my-movie.club/"], :root a[href^="https://msecure117.com/"], :root [href^="https://detachedbates.com/"], :root a[href^="https://mk-cdn.net/"], :root a[href^="https://mk-ads.com/"], :root a[href^="https://meet-sex-here.com/?u="], :root a[href^="https://medleyads.com/"], :root a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"], :root iframe[src^="https://tpc.googlesyndication.com/"], :root a[href^="https://a.bestcontentoperation.top/"], :root a[href^="https://landing1.brazzersnetwork.com"], :root a[href^="http://adrunnr.com/"], :root a[href^="https://landing.brazzersplus.com/"], :root a[href^="https://land.rk.com/landing/"], :root a[href^="http://ad.au.doubleclick.net/"], :root a[href^="https://k2s.cc/pr/"], :root a[href^="https://juicyads.in/"], :root a[href^="https://join.virtuallust3d.com/"], :root a[href^="http://www.uniblue.com/cm/"], :root a[href^="https://join.sexworld3d.com/track/"], :root a[href^="https://join.dreamsexworld.com/"], :root a[href^="https://trusted-click-host.com/"], :root a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="], :root a[href^="https://jmp.awempire.com/"], :root [href^="http://join.shemalepornstar.com/"], :root [id^="ad_sky"], :root a[href^="https://incisivetrk.cvtr.io/click?"], :root a[href^="https://iactrivago.ampxdirect.com/"], :root a[href^="https://iac.ampxdirect.com/"], :root a[href^="https://horny-pussies.com/tds"], :root a[href^="https://graizoah.com/"], :root a[href^="https://goraps.com/"], :root a[href^="http://feedads.g.doubleclick.net/"], :root a[href^="https://redsittalvetoft.pro/"], :root a[href^="https://googleads.g.doubleclick.net/pcs/click"], :root a[href^="//thaudray.com/"], :root a[href^="http://cdn.adstract.com/"], :root a[href^="https://gogoman.me/"], :root a[href^="https://go.xtbaffiliates.com/"], :root a[href^="https://torrentsafeguard.com/?aid="], :root [href^="https://v.investologic.co.uk/"], :root a[href^="https://offers.refchamp.com/"], :root a[href^="https://go.trkclick2.com/"], :root a[href^="https://go.strpjmp.com/"], :root a[href^="https://go.markets.com/visit/?bta="], :root a[href^="http://vo2.qrlsx.com/"], :root a[href^="https://pl.premium4kflix.website/"], :root a[href^="https://go.julrdr.com/"], :root a[href^="https://landing.brazzersnetwork.com/"], :root a[href^="https://go.hpyjmp.com/"], :root a[href^="https://go.goasrv.com/"], :root a[href^="https://adnetwrk.com/"], :root a[href^="https://go.gldrdr.com/"], :root a[href^="https://fleshlight.sjv.io/"], :root a[href^="https://go.etoro.com/"] > img, :root a[href^="https://go.currency.com/"], :root a[href^="https://track.afftck.com/"], :root a[href^="http://guideways.info/"], :root a[href^="https://go.cmrdr.com/"], :root [href^="http://www.pingperfect.com/aff.php"], :root a[href^="http://www.easydownloadnow.com/"], :root a[href^="https://go.alxbgo.com/"], :root a[href^="https://go.admjmp.com/"], :root a[href^="https://go.ad2up.com/"], :root a[href^="https://giftsale.co.uk/?utm_"], :root a[href^="http://www.terraclicks.com/"], :root a[href^="https://gghf.mobi/"], :root a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img, :root a[href^="http://adserver.adtech.de/"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="https://frameworkdeserve.com/"], :root a[href^="https://fonts.fontplace9.com/"], :root a[href^="http://clkmon.com/adServe/"], :root a[href^="https://flirtaescopa.com/"], :root bottomadblock, :root a[href^="https://fertilitycommand.com/"], :root a[href^="https://fakelay.com/"], :root a[href^="https://earandmarketing.com/"], :root [lazy-ad="leftthin_banner"], :root a[href^="https://dynamicadx.com/"], :root div[id^="div-gpt-"], :root a[href^="https://dooloust.net/"], :root a[href^="https://www.what-sexdating.com/"], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="//srv.buysellads.com/"], :root a[href^="https://dianches-inchor.com/"], :root a[href^="http://adf.ly/?id="], :root a[href^="https://uncensored3d.com/"], :root a[href^="https://creacdn.top-convert.com/"], :root a[href^="https://www.chngtrack.com/"], :root iframe[src^="https://pagead2.googlesyndication.com/"], :root a[href^="https://retiremely.com/"], :root a[href^="https://cpmspace.com/"], :root a[href^="https://cpartner.bdswiss.com/"], :root [onclick*="content.ad/"], :root a[href^="https://clixtrac.com/"], :root a[href^="https://clicks.pipaffiliates.com/"], :root .commercial-unit-mobile-top > .v7hl4d, :root a[href^="https://click.plista.com/pets"], :root a[href^="https://claring-loccelkin.com/"], :root a[href^="https://chaturbate.xyz/"], :root [data-ad-cls], :root a[href^="https://chaturbate.jjgirls.com/?track="], :root a[href^="https://chaturbate.com/in/?track="], :root a[href^="https://chaturbate.com/in/?tour="], :root a[href^="https://chaturbate.com/affiliates/"], :root a[href^="https://cagothie.net/"], :root a[href^="https://burpee.xyz/"], :root a[href^="https://mcdlks.com/"], :root a[href^="https://bs.serving-sys.com"], :root a[href^="http://www.123-reg.co.uk/affiliate2.cgi"], :root a[href^="https://bongacams10.com/track?"], :root a[href^="https://blackorange.go2cloud.org/"], :root a[href^="https://affiliates.bet-at-home.com/processing/"], :root a[href^="https://ads.ad4game.com/"], :root a[href^="https://betway.com/"][href*="&a="], :root a[href^="https://awptjmp.com/"], :root a[href^="http://www.fleshlight.com/"], :root a[href^="https://aweptjmp.com/"], :root a[href^="http://www.1clickdownloader.com/"], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root a[href^="https://awentw.com/"], :root [href^="/ucdownloader.php"], :root a[href^="https://awejmp.com/"], :root a[href^="https://ausoafab.net/"], :root a[href^="https://as.sexad.net/"], :root a[href^="https://playuhd.host/"], :root a[href^="https://as.conjectwatson.com/"], :root a[href^="http://bestorican.com/"], :root a[href^="https://galaxyroms.net/?scr="], :root a[href^="https://albionsoftwares.com/"], :root a[href^="http://cdn3.adexprts.com/"], :root a[href^="https://spygasm.com/track?"], :root a[href^="https://agacelebir.com/"], :root a[href^="https://geniusdexchange.com/"], :root a[href^="//postlnk.com/"], :root a[href^="https://affiliate.rusvpn.com/click.php?"], :root [data-role="tile-ads-module"], :root a[href^="https://affiliate.geekbuying.com/gkbaffiliate.php?"], :root [href^="https://www.reimageplus.com/"], :root a[href^="https://bongacams2.com/track?"], :root a[href^="http://www.twinplan.com/AF_"], :root a[href^="https://affcpatrk.com/"], :root a[href^="https://www.sugarinstant.com/?partner_id="], :root a[href^="http://adultfriendfinder.com/p/register.cgi?pid="], :root a[href^="http://www.advcashpro.com/aff/"], :root a[href^="https://www.popads.net/users/"], :root a[href^="https://adultfriendfinder.com/go/page/landing"], :root a[href^="https://adswick.com/"], :root ADS-RIGHT, :root a[href^="https://tracking.trackcasino.co/"], :root a[href^="https://adserver.adreactor.com/"], :root a[href^="https://land.brazzersnetwork.com/landing/"], :root a[href^="https://ads.leovegas.com/redirect.aspx?"], :root a[href^="https://t.hrtye.com/"], :root a[href^="https://ads.cdn.live/"], :root a[href^="https://ads.betfair.com/redirect.aspx?"], :root a[href^="https://refpaano.host/"], :root a[href^="https://meet-to-fuck.com/tds"], :root a[href^="https://adhealers.com/"], :root a[href^="https://adclick.g.doubleclick.net/"], :root a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="], :root a[href^="http://servicegetbook.net/"], :root a[href^="https://bngpt.com/"], :root a[href^="http://clickandjoinyourgirl.com/"], :root a[href^="https://ad13.adfarm1.adition.com/"], :root a[href^="https://misspkl.com/"], :root a[href^="https://ad.zanox.com/ppc/"] > img, :root a[href^="https://static.fleshlight.com/images/banners/"], :root a[href^="http://zevera.com/afi.html"], :root a[href^="http://go.oclaserver.com/"], :root a[href^="https://ad.atdmt.com/"], :root a[href^="https://cams.imagetwist.com/in/?track="], :root .trc_rbox .syndicatedItem, :root a[href^="https://aaucwbe.com/"], :root a[href^="https://a.bestcontentweb.top/"], :root a[href^="http://campaign.bharatmatrimony.com/track/"], :root a[href^="https://a-ads.com/campaigns/"], :root a[href^="https://syndication.exoclick.com/"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci, :root a[href^="https://financeads.net/tc.php?"], :root a[href^="https://a-ads.com/?partner="], :root a[href^="http://hyperlinksecure.com/go/"], :root a[href^="https://track.themadtrcker.com/"], :root a[href^="https://bullads.net/get/"], :root a[href^="http://down1oads.com/"], :root a[href^="http://yads.zedo.com/"], :root [href^="http://go.cm-trk2.com/"], :root a[href^="https://tracking.comfortclick.eu/"], :root a[href^="https://maymooth-stopic.com/"], :root a[href^="http://xtgem.com/click?"], :root a[href^="https://ads.trafficpoizon.com/"], :root div[class^="local-feed-banner-ads"], :root a[href^="http://wxdownloadmanager.com/dl/"], :root a[href^="http://www.xmediaserve.com/"], :root a[href^="http://www.webtrackerplus.com/"], :root a[href^="http://www.usearchmedia.com/signup?"], :root a[href^="http://www.torntv-downloader.com/"], :root a[href^="https://www.privateinternetaccess.com/"] > img, :root a[href^="http://www.tirerack.com/affiliates/"], :root span[data-component-type="s-ads-metrics"], :root div[class^="AdBannerWrapper-"], :root a[href^="http://www.text-link-ads.com/"], :root a[href^="https://weedzy.co.uk/"][href*="&utm_"], :root a[href^="http://www.streamtunerhd.com/signup?"], :root a[href^="http://www.streamate.com/exports/"], :root a[href^="https://ads-for-free.com/click.php?"], :root a[href^="https://syndication.optimizesrv.com/"], :root a[href^="http://www.socialsex.com/"], :root a[href^="https://join.virtualtaboo.com/track/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root [href^="https://awbbjmp.com/"], :root a[href^="http://www.sfippa.com/"], :root a[href^="http://secure.signup-page.com/"], :root a[href^="http://www.quick-torrent.com/download.html?aff"], :root a[href^="http://www.plus500.com/?id="], :root a[href^="http://ffxitrack.com/"], :root a[href^="https://www.im88trk.com/"], :root [href*=".zlinkm.com/"], :root a[href^="http://www.pinkvisualgames.com/?revid="], :root a[href^="https://trklvs.com/"], :root a[href^="http://www.paddypower.com/?AFF_ID="], :root a[href^="http://www.onwebcam.com/random?t_link="], :root a[href^="http://www.onclickmega.com/jump/next.php?"], :root a[href^="https://go.247traffic.com/"], :root a[href^="http://www.freefilesdownloader.com/"], :root a[href^="http://www.mysuperpharm.com/"], :root a[href^="http://www.myfreepaysite.com/sfw.php?aid"], :root a[href^="http://www.mrskin.com/tour"], :root a[href^="http://bcntrack.com/"], :root a[href^="http://www.securegfm.com/"], :root a[href^="http://www.liversely.net/"], :root a[href^="https://partners.fxoro.com/click.php?"], :root a[href^="https://azpresearch.club/"], :root a[href^="http://www.linkbucks.com/referral/"], :root a[href^="http://www.idownloadplay.com/"], :root a[href^="http://www.hitcpm.com/"], :root a[href^="http://fusionads.net"], :root a[href^="http://www.hibids10.com/"], :root div[class^="awpcp-random-ads"], :root a[href^="http://www.graboid.com/affiliates/"], :root a[href^="http://www.firstload.com/affiliate/"], :root a[href^="http://www.friendlyadvertisements.com/"], :root a[href^="http://ul.to/ref/"], :root a[href^="https://content.oneindia.com/www/delivery/"], :root a[href^="http://www.fpcTraffic2.com/blind/in.cgi?"], :root a[href^="http://www.fonts.com/BannerScript/"], :root a[href^="https://americafirstpolls.com/"], :root a[href^="http://clickserv.sitescout.com/"], :root a[href^="http://www.firstload.de/affiliate/"], :root a[href^="http://www.dealcent.com/register.php?affid="], :root a[data-url^="http://paid.outbrain.com/network/redir?"], :root iframe[id^="google_ads_frame"], :root a[href^="http://www.bet365.com/"][href*="affiliate="], :root a[href^="http://www.bluehost.com/track/"] > img, :root a[href^="http://www.coiwqe.site/"], :root a[href^="https://click.a-ads.com/"], :root a[href^="http://www.clkads.com/adServe/"], :root a[href^="http://www.babylon.com/welcome/index?affID"], :root .grid > .container > #aside-promotion, :root a[href^="http://www.badoink.com/go.php?"], :root a[href^="http://www.afgr3.com/"], :root a[href^="https://fast-redirecting.com/"], :root a[href^="https://bluedelivery.pro/"], :root [href^="http://join.michelle-austin.com/"], :root a[href^="http://www.sexgangsters.com/?pid="], :root a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"], :root a[href^="http://c.jumia.io/"], :root a[href^="http://www.affiliates1128.com/processing/"], :root a[href^="http://go.ad2up.com/"], :root a[href^="https://badoinkvr.com/"], :root a[href^="http://www.adxpansion.com"], :root a[href^="http://ad-emea.doubleclick.net/"], :root a[href^="https://clickadilla.com/"], :root .ob_container .item-container-obpd, :root a[href^="http://websitedhoome.com/"], :root a[href^="http://www.adskeeper.co.uk/"], :root a[href^="http://www.down1oads.com/"], :root a[href^="http://www.FriendlyDuck.com/"], :root a[href^="http://bodelen.com/"], :root a[href^="http://wgpartner.com/"], :root a[href^="http://webtrackerplus.com/"], :root div[class^="Ad__adContainer"], :root a[href^="http://web.adblade.com/"], :root [href^="https://stvkr.com/"], :root a[href^="http://engine.newsmaxfeednetwork.com/"], :root a[href^="https://www.nutaku.net/signup/landing/"], :root a[href^="http://s9kkremkr0.com/"], :root a[href^="https://traffdaq.com/"], :root a[href^="http://ucam.xxx/?utm_"], :root a[href^="http://traffic.tc-clicks.com/"], :root a[href^="https://dediseedbox.com/clients/aff.php?"], :root [href^="/ucmini.php"], :root a[href^="http://www.wantstraffic.com/"], :root a[href^="http://databass.info/"], :root a[href^="http://track.afcpatrk.com/"], :root div[class^="Ad__container"], :root a[href^="http://adprovider.adlure.net/"], :root a[href^="http://t.wowtrk.com/"], :root a[href^="http://tezfiles.com/pr/"], :root [id*="ScriptRoot"], :root a[href^="http://fileboom.me/pr/"], :root a[href^="//coarsewary.com/"], :root a[href*=".trust.zone"], :root a[href^="http://www.firstclass-download.com/"], :root a[href^="http://tracking.deltamediallc.com/"], :root a[href^="http://tc.tradetracker.net/"] > img, :root div[class^="adUnit_"], :root a[href^="https://deliver.tf2www.com/"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root a[href^="http://spygasm.com/track?"], :root a[href^="http://sharesuper.info/"], :root a[href^="https://awecrptjmp.com/"], :root [data-ez-name], :root a[href^="http://server.cpmstar.com/click.aspx?poolid="], :root a[href^="http://www.fbooksluts.com/"], :root a[href^="http://c.actiondesk.com/"], :root a[href^="http://intent.bingads.com/"], :root a[href^="http://www.cdjapan.co.jp/aff/click.cgi/"], :root .trc_related_container div[data-item-syndicated="true"], :root a[href^="https://www.firstload.com/affiliate/"], :root a[href^="http://see.kmisln.com/"], :root a[href^="http://secure.hostgator.com/~affiliat/"], :root a[href^="http://rs-stripe.wsj.com/stripe/redirect"], :root a[href^="http://refpaano.host/"], :root a[data-oburl^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://refpa.top/"], :root a[href^="https://easygamepromo.com/ef/custom_affiliate/"], :root a[href^="http://record.betsafe.com/"], :root a[href^="https://iqbroker.com/"][href*="?aff="], :root a[href^="http://buysellads.com/"], :root a[href^="http://reallygoodlink.freehookupaffair.com/"], :root a[href^="https://keep2share.cc/pr/"], :root a[href^="http://pityhostngco2.xyz/"], :root a[href^="http://adlev.neodatagroup.com/"], :root a[href^="http://reallygoodlink.extremefreegames.com/"], :root a[href^="https://bnsjb1ab1e.com/"], :root a[href^="http://pwrads.net/"], :root a[href^="https://www.xvinlink.com/?a_fid="], :root a[href^="http://promos.bwin.com/"], :root a[href^="http://z1.zedo.com/"], :root a[href^="http://pokershibes.com/index.php?ref="], :root [id^="google_ads_iframe"], :root a[href^="http://partners.etoro.com/"], :root [data-mobile-ad-id], :root LEADERBOARD-AD, :root a[href^="http://papi.mynativeplatform.com:80/pub2/"], :root a[href^="http://searchtabnew.com/"], :root div[id^="ad-gpt-"], :root a[href^="http://pan.adraccoon.com?"], :root a[href^="http://online.ladbrokes.com/promoRedirect?"], :root a[href^="https://dltags.com/"], :root a[href^="http://onclickads.net/"], :root a[href^="http://mmo123.co/"], :root div[id^="amzn-assoc-ad"], :root a[href^="https://www.oboom.com/ref/"], :root a[href^="http://media.paddypower.com/redirect.aspx?"], :root a[href^="https://fileboom.me/pr/"], :root a[href^="http://marketgid.com"], :root a[href^="https://aff-ads.stickywilds.com/"], :root a[href^="http://www.bitlord.me/share/"], :root a[href^="https://www.kingsoffetish.com/tour?partner_id="], :root a[href^="//pubads.g.doubleclick.net/"], :root a[href^="http://lp.ncdownloader.com/"], :root [href*=".engine.adglare.net/"], :root a[href^="http://allaptair.club/"], :root a[href^="https://moneynow.one/"], :root a[href^="http://look.djfiln.com/"], :root a[href^="https://track.trkinator.com/"], :root div[id^="ad-position-"], :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"], :root a[href^="http://liversely.com/"], :root a[href^="http://keep2share.cc/pr/"], :root a[href^="http://www.liutilities.com/"], :root a[href^="http://www.dl-provider.com/search/"], :root [href^="http://join.shemalesfromhell.com/"], :root .pubexchange_module .pe-external, :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://join3.bannedsextapes.com/track/"], :root a[href^="https://gamescarousel.com/"], :root a[href^="http://istri.it/?"], :root a[href^="http://mob1ledev1ces.com/"], :root a[href^="//voyeurhit.com/cs/"], :root a[href^="http://hd-plugins.com/download/"], :root [data-desktop-ad-id], :root a[href^="https://look.utndln.com/"], :root a[href^="http://googleads.g.doubleclick.net/pcs/click"], :root a[href^="https://ovb.im/"], :root a[href^="https://watchmygirlfriend.tv/"], :root .nrelate .nr_partner, :root a[href^="http://go.xtbaffiliates.com/"], :root a[href^="http://secure.cbdpure.com/aff/"], :root a[href^="http://www.downloadthesefiles.com/"], :root a[href^="https://oackoubs.com/"], :root a[href^="http://install.securewebsiteaccess.com/"], :root a[href^="http://www.revenuehits.com/"], :root a[href^="http://www.downloadweb.org/"], :root a[href^="http://go.seomojo.com/tracking202/"], :root a[href^="http://go.mobisla.com/"], :root a[href^="http://go.fpmarkets.com/"], :root div[class^="AdSlot__container"], :root a[href^="http://findersocket.com/"], :root a[href^="https://porngames.adult/?SID="], :root a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img, :root a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="], :root a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"], :root a[href^="http://g1.v.fwmrm.net/ad/"], :root a[href^="http://us.marketgid.com"], :root a[href^="http://imads.integral-marketing.com/"], :root a[href^="http://freesoftwarelive.com/"], :root a[href^="http://adtrackone.eu/"], :root span[title="Ads by Google"], :root a[href^="http://finaljuyu.com/"], :root a[href^="http://ethfw0370q.com/"], :root [id^="bunyad_ads_"], :root a[href^="http://elitefuckbook.com/"], :root a[href^="http://eclkmpsa.com/"], :root a[href^="http://wopertific.info/"], :root a[href^="http://earandmarketing.com/"], :root div[class^="hp-ad-rect-"], :root a[href^="http://dwn.pushtraffic.net/"], :root a[href^="http://aflrm.com/"], :root a[href^="http://deloplen.com/"], :root a[href^="https://www.financeads.net/tc.php?"], :root a[href^="http://www.friendlyduck.com/AF_"], :root #content > #center > .dose > .dosesingle, :root a[href^="http://d2.zedo.com/"], :root amp-fx-flying-carpet, :root a[href^="http://czotra-32.com/"], :root a[href^="https://a.adtng.com/"], :root a[href^="http://static.fleshlight.com/images/banners/"], :root a[href^="http://codec.codecm.com/"], :root a[href^="https://www.travelzoo.com/oascampaignclick/"], :root a[href^="https://see.kmisln.com/"], :root a[href^="http://refer.webhostingbuzz.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://www.downloadplayer1.com/"], :root a[href^="http://clicks.binarypromos.com/"], :root [id^="ad_slider"], :root a[href^="http://chaturbate.com/affiliates/"], :root a[href^="https://track.bruceads.com/"], :root a[href^="https://t.aslnk.link/"], :root a[href^="https://m.do.co/c/"] > img, :root a[href^="http://track.trkvluum.com/"], :root [href^="https://secure.bmtmicro.com/servlets/"], :root a[href^="http://amzn.to/"] > img[src^="data"], :root a[href^="http://bs.serving-sys.com/"], :root a[href^="http://cpaway.afftrack.com/"], :root a[href^="http://cdn.adsrvmedia.net/"], :root [href^="https://infinitytrk.com/"], :root [onclick^="location.href='http://www.reimageplus.com"], :root [lazy-ad="top_banner"], :root a[href^="http://360ads.go2cloud.org/"], :root a[href^="http://dftrck.com/"], :root a[href^="http://casino-x.com/?partner"], :root a[href^="https://meet-sexhere.com/"], :root a[href^="http://record.sportsbetaffiliates.com.au/"], :root a[href^="http://campeeks.com/"][href*="&utm_"], :root a[href^="http://download-performance.com/"], :root a[href^="http://www.on2url.com/app/adtrack.asp"], :root [href^="https://affect3dnetwork.com/track/"], :root a[href^="http://campaign.bharatmatrimony.com/cbstrack/"], :root a[href^="https://go.goaserv.com/"], :root a[href^="http://serve.williamhill.com/promoRedirect?"], :root a[href^="https://uncensored.game/"], :root a[href^="http://www.seekbang.com/cs/"], :root a[href^="http://syndication.exoclick.com/"], :root a[href^="http://bluehost.com/track/"], :root [href^="https://www.dcpodj3k5.com/"], :root a[href^="https://serve.awmdelivery.com/"], :root a[href^="http://enter.anabolic.com/track/"], :root a[href^="https://prf.hn/click/"][href*="/adref:"] > img, :root a[href^="http://banners.victor.com/processing/"], :root [href^="https://affiliate.fastcomet.com/"], :root a[href^="http://api.content.ad/"], :root a[href^="http://hotcandyland.com/partner/"], :root div[data-test-id="AdBannerWrapper"], :root a[href^="http://www.urmediazone.com/signup"], :root div[class^="AdCard_"], :root #atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top, :root a[href^="http://affiliates.lifeselector.com/"], :root a[href^="https://leg.xyz/?track="], :root a[href^="http://affiliate.glbtracker.com/"], :root [href^="https://t.ajrkm.link/"], :root a[href^="http://affiliate.coral.co.uk/processing/"], :root a[href^="http://aff.ironsocket.com/"], :root div[class^="BannerAd_"], :root a[href^="http://tour.mrskin.com/"], :root a[href^="http://linksnappy.com/?ref="], :root a[href^="http://adtrack123.pl/"], :root a[href^="http://adsrv.keycaptcha.com"], :root a[href^="http://adserver.adreactor.com/"], :root div[class^="StickyHeroAdWrapper-"], :root a[href^="http://cwcams.com/landing/click/"], :root a[href^="http://ads.betfair.com/redirect.aspx?"], :root a[href^="http://ad.doubleclick.net/"], :root [href^="http://homemoviestube.com/"], :root a[href^="https://adsrv4k.com/"], :root a[href^="http://trk.mdrtrck.com/"], :root [href^="http://globsads.com/"], :root [href^="https://shrugartisticelder.com"], :root a[href^="http://www.friendlyquacks.com/"], :root a[href^="https://scurewall.co/"], :root [name^="google_ads_iframe"], :root [href^="http://join.rodneymoore.com/"], :root [id*="MarketGid"], :root a[href^="http://espn.zlbu.net/"], :root a[href^="http://admrotate.iplayer.org/"], :root a[href^="http://adclick.g.doubleclick.net/"], :root a[href^="http://www.flashx.tv/downloadthis"], :root .vid-present > .van_vid_carousel__padding, :root #header + #content > #left > #rlblock_left, :root a[href^="http://affiliates.pinnaclesports.com/processing/"], :root a[href^="http://ad.yieldmanager.com/"], :root [href^="https://track.fiverr.com/visit/"] > img, :root [data-template-type="nativead"], :root a[href^="http://www.menaon.com/installs/"], :root a[href^="//syndication.dynsrvtbg.com/"], :root [data-dynamic-ads], :root a[href^="http://srvpub.com/"], :root a[href^="https://go.nordvpn.net/aff"] > img, :root a[href^="http://secure.vivid.com/track/"], :root a[href^="http://see-work.info/"], :root a[href^="https://www.passeura.com/"], :root a[href^="http://www.pinkvisualpad.com/?revid="], :root a[href^="https://go.hpyrdr.com/"], :root a[href^="https://billing.purevpn.com/aff.php"] > img, :root a[href^="//lambingsyddir.com/"], :root a[href^="https://secure.adnxs.com/clktrb?"], :root div[data-mpu1], :root a[href^="http://adserver.adtechus.com/"], :root a[href^="http://www.download-provider.org/"], :root a[href^="http://play4k.co/"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root a[href^="http://www.roboform.com/php/land.php"], :root a[href="//rufflycouncil.com/"], :root a[href*=".zlink9.com/"], :root a[href^="http://www.mobileandinternetadvertising.com/"], :root [href^="https://join.playboyplus.com/track/"], :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root div[class^="AdEmbeded__AddWrapper"], :root a[href^="http://affiliates.score-affiliates.com/"], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root a[href^="https://ptapjmp.com/"], :root a[href^="https://ttf.trmobc.com/"], :root a[href^="http://n.admagnet.net/"], :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root div[class^="BlockAdvert-"], :root a[href^="https://go.onclasrv.com/"], :root a[href^="http://wct.link/"], :root a[href^="https://zononi.com/"], :root a[href^="http://adserving.unibet.com/"], :root [href^="https://bulletprofitsmartlink.com/"], :root [href^="https://join3.bannedsextapes.com"], :root a[href^="//benoopto.com/"], :root [lazy-ad="leftbottom_banner"], :root [id^="div-gpt-ad"], :root a[href^="https://intrev.co/"], :root a[href^="http://https://www.get-express-vpn.com/offer/"], :root [href^="http://trafficare.net/"], :root [lazy-ad="lefttop_banner"], :root a[href^="http://c.ketads.com/"], :root a[href^="https://secure.starsaffiliateclub.com/C.ashx?"], :root [href^="https://totlnkcl.com/"], :root .trc_rbox_div .syndicatedItemUB, :root [href^="https://zone.gotrackier.com/"], :root [href^="https://www.mypillow.com/"] > img, :root [href^="https://freecourseweb.com/"] > .sitefriend, :root [href^="https://www.hostg.xyz/aff_c"] > img, :root aside[id^="tn_ads_widget-"], :root a[href^="https://track.totalav.com/"], :root [href^="https://wct.link/"], :root [href^="https://traffserve.com/"], :root a[href^="https://topoffers.com/"][href*="/?pid="], :root a[href^="https://syndication.dynsrvtbg.com/"], :root a[href^="http://vinfdv6b4j.com/"], :root a[href^="http://click.plista.com/pets"], :root a[href^="https://www.awin1.com/cread.php?awinaffid="], :root div[class^="ad_border_"], :root div[class^="AdItem-"], :root a[href^="https://servedbyadbutler.com/"], :root a[href^="https://www.bet365.com/"][href*="affiliate="], :root a[href^="https://mob1ledev1ces.com/"], :root a[href^="https://promo-bc.com/"], :root a[data-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="https://explore.findanswersnow.net/"], :root [id^="adframe_wrap_"], :root div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"], :root a[href^="https://go.trackitalltheway.com/"], :root a[href^="https://ismlks.com/"], :root .plista_widget_belowArticleRelaunch_item[data-type="pet"], :root #taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top, :root a[href^="http://click.payserve.com/"], :root a[href^="https://sexsimulator.game/tab/?SID="], :root .rc-cta[data-target], :root iframe[src^="http://ad.yieldmanager.com/"], :root a[href^="https://porntubemate.com/"], :root a[href^="http://pubads.g.doubleclick.net/"], :root a[href^="http://s5prou7ulr.com/"], :root a[href^="http://azmobilestore.co/"], :root [data-ad-manager-id], :root a[href^="http://ad-apac.doubleclick.net/"], :root a[href^="https://traffic.bannerator.com/"], :root [href^="https://shiftnetwork.infusionsoft.com/go/"] > img, :root a[href^="http://hpn.houzz.com/"], :root a[href^="http://www.gfrevenge.com/landing/"], :root a[href^="https://mmwebhandler.aff-online.com/"], :root [href^="https://r.kraken.com/"], :root a[href^="http://xads.zedo.com/"], :root [class^="div-gpt-ad"], :root a[href^="http://www.ragazzeinvendita.com/?rcid="], :root a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"], :root .plistaList > .itemLinkPET, :root a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"], :root a[href^="http://landingpagegenius.com/"], :root .section-subheader > .section-hotel-prices-header, :root [href^="http://join.ts-dominopresley.com/"], :root [href^="https://go.affiliatexe.com/"], :root a[href^="https://t.mobtya.com/"], :root a[href^="https://www.adxtro.com/"], :root [class*="__adv-block"], :root .trc_rbox_border_elm .syndicatedItem, :root a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"], :root [href^="https://glersakr.com/"], :root a[href^="https://freeadult.games/"], :root a[href^="http://1phads.com/"], :root [href^="http://join.trannies-fuck.com/"], :root a[href^="http://liversely.net/"], :root a[href^="http://mgid.com/"], :root a[href^="http://k2s.cc/pr/"], :root [href^="/admdownload.php"], :root a[href^="https://www.spyoff.com/"], :root div[data-native-ad], :root a[href^="https://click.hoolig.app/"], :root AD-TRIPLE-BOX, :root [href^="http://join.hardcoreshemalevideo.com/"], :root a[href^="http://ads2.williamhill.com/redirect.aspx?"], :root a[href^="//www.mgid.com/"], :root [href^="https://go.astutelinks.com/"], :root [href^="http://join.shemale.xxx/"], :root a[href^="http://www.TwinPlan.com/AF_"], :root [href^="https://click2cvs.com/"], :root a[href^="http://ads.expekt.com/affiliates/"], :root a[href^="https://deliver.ptgncdn.com/"], :root [href^="https://www.targetingpartner.com/"], :root a[href^="http://latestdownloads.net/download.php?"], :root a[href^="http://bc.vc/?r="], :root a[href^="http://www.afgr2.com/"], :root #slashboxes > .deals-rail, :root FBS-AD, :root [href^="https://go.4rabettraff.com/"], :root display-ad-component, :root a[href^="https://ak.hetaruwg.com/"], :root [href^="https://mylead.global/stl/"] > img, :root display-ads, :root a[href^="http://www.gamebookers.com/cgi-bin/intro.cgi?"], :root div[id^="crt-"][style], :root a[href^="http://igromir.info/"], :root a[href^="http://affiliates.thrixxx.com/"], :root app-large-ad, :root a[href^="https://farm.plista.com/pets"], :root [data-css-class="dfp-inarticle"], :root [class^="Ad-adContainer"], :root a[href^="http://www.getyourguide.com/?partner_id="], :root a[href^="http://bcp.crwdcntrl.net/"], :root [href^="https://rapidgator.net/article/premium/ref/"], :root [href^="https://join.girlsoutwest.com/"], :root a[href^="https://torguard.net/aff.php"] > img, :root [class^="AdvertisingSlot_"], :root [id^="ad-wrap-"], :root a[href^="https://www.rabbits.webcam/?id="], :root a[href^="https://delivery.porn.com/"], :root a[href^="http://ads.sprintrade.com/"], :root a[href^="https://trackjs.com/?utm_source"], :root AFS-AD, :root .trc_rbox_div .syndicatedItem, :root a[href^="//www.pd-news.com/"], :root a-ad, :root a[href^="http://get.slickvpn.com/"], :root [data-ad-module], :root a[href^="https://secure.cbdpure.com/aff/"], :root AMP-AD, :root a[href^="https://x.trafficandoffers.com/"], :root .scroll-fixable.rail-right > .deals-rail, :root div[id^="vuukle-ad-"], :root a[href^="http://betahit.click/"], :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root a[href^="http://goldmoney.com/?gmrefcode="], :root a[href^="http://fsoft4down.com/"], :root div[id^="ad_bigbox_"], :root #content > #right > .dose > .dosesingle, :root a[href^="http://paid.outbrain.com/network/redir?"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci, :root .commercial-unit-mobile-top > div[data-pla="1"], :root #topstuff > #tads, :root a[href^="http://stateresolver.link/"], :root a[href^="http://galleries.securewebsiteaccess.com/"], :root [data-freestar-ad], :root [class*="__adspot-title-container"], :root a[href^="https://a.bestcontentfood.top/"], :root #ads > .dose > .dosesingle { display: none !important; }</style></head>
+
+  <body>
+
+    <div class="container" style="padding: 0px;">
+      <div class="row">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+	      <li>
+		<a href="https://cmr.fysik.dtu.dk/">CMR</a>
+	      </li>
+	      <li>
+		<a href="https://cmr.fysik.dtu.dk/c2db/c2db.html">
+		  More information</a>
+	      </li>
+	      <li>
+		<a href="https://cmrdb.fysik.dtu.dk/c2db/">Back to search page</a>
+	      </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div> <!--end of container-->
+
+
+<style>
+table.search {
+    border-collapse: separate;
+    border-spacing: 0.5em 0.5em;
+}
+.ase-input {
+    width: 100%;
+}
+</style>
+
+<div class="container">
+  
+  <div class="row" style="padding-bottom:15px;padding-right:50px">
+    <div class="col-lg-11">
+      <div class="col-lg-9"><h1>Computational 2D materials database</h1></div>
+      <div class="col-lg-2" style="float:right">
+	<img alt="C2DB logo" width="300" src="./C2DB-1_files/c2db-db.png">
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="well mt-2">
+    <form id="mainFormID" class="navbar-form navbar-default mt-2" role="search" action="javascript:update_table(88, &#39;query&#39;, &#39;0&#39;)">
+      <div class="form-group" style="margin-top:5px;">
+	<input type="text" name="query" id="formula-result" class="form-control mt-2 ase-input" value="" placeholder="Example: &#39;MoS2&#39; OR &#39;gap&gt;0,ehull&lt;0.1&#39;" size="60">
+	<button type="submit" class="btn btn-default">
+	  <i class="fa fa-search fa-1x" aria-hidden="true"></i>
+	</button>
+      </div><br>
+
+      <table class="search">
+	<tbody><tr>
+	  <td>Stoichiometry (A, AB2, A2B3, ...)</td><td>:</td>
+	  <td>
+	    <input type="text" name="stoichiometry" value="" size="6" class="ase-input">
+	  </td>
+	</tr>
+	<tr><td>Material class</td><td>:</td>
+	<td>
+	  <select name="structureclass" class="ase-input">
+	    <option value="">All</option>
+	    <option value="MXY Janus">MXY Janus</option>
+	    <option value="MXene">MXene</option>
+	    <option value="TMDC-H">TMDC-H</option>
+	    <option value="TMDC-T">TMDC-T</option>
+	    <option value="TMDC-T&#39;">TMDC-T'</option>
+	    <option value="TMDC-alloy">TMDC-alloy</option>
+	    <option value="Xane">Xane</option>
+	    <option value="Xene">Xene</option>
+	  </select>
+	</td>
+	</tr><tr>
+	  <td>Dynamically stable (phonons)</td><td>:</td>
+	  <td>
+	    <select name="dyn_phonons" class="ase-input ase-button">
+	      <option value="low">No</option>
+	      <option value="high" selected="">Yes</option>
+	      <option value="all">All</option>
+	    </select>
+	  </td>
+	  <td>
+	</td></tr>
+	<tr>
+	  <td>Dynamically stable (stiffness)</td><td>:</td>
+	  <td>
+	    <select name="dyn_stiffness" class="ase-input ase-button">
+	      <option value="low">No</option>
+	      <option value="high" selected="">Yes</option>
+	      <option value="all">All</option>
+	    </select>
+	  </td>
+	  <td>
+	</td></tr>
+	<tr>
+	  <td>Thermodynamic stability</td><td>:</td>
+	  <td>
+	    <select name="from_tdyn" class="ase-input">
+	      <option value="1">Low</option>
+	      <option value="2" selected="">Medium</option>
+	      <option value="3">High</option>
+	    </select>
+	  </td>
+	  <td>-</td>
+	  <td>
+	    <select name="to_tdyn" class="ase-input">
+	      <option value="1">Low</option>
+	      <option value="2">Medium</option>
+	      <option value="3" selected="">High</option>
+	    </select>
+	  </td>
+	</tr>
+	<tr>
+	  <td>Magnetic</td><td>:</td>
+	  <td>
+	    <select name="is_magnetic" class="ase-input">
+	      <option value="">All</option>
+	      <option value="True">Yes</option>
+	      <option value="False">No</option>
+	    </select>
+	  </td>
+	</tr>
+	<tr>
+	  <td>Band gap range [eV]</td><td>:</td>
+	  <td>
+	    <input type="text" name="from_gap" value="" size="6" class="ase-input">
+	  </td>
+	  <td>-</td>
+	  <td>
+	    <input type="text" name="to_gap" value="" size="6" class="ase-input">
+	  </td>
+	  <td>
+	    <select name="xc" class="ase-input">
+	      <option value="gap">PBE</option>
+	      <option value="gap_gw">G0W0@PBE</option>
+	      <option value="gap_hse">HSE06@PBE</option>
+	    </select>
+	  </td>
+	</tr>
+      </tbody></table>
+
+      <div class="form-group" style="margin-bottom:0px;">
+	<small class="form-text text-muted">
+	  <a href="https://wiki.fysik.dtu.dk/ase/ase/db/db.html#querying" target="_blank">
+	    Help with constructing advanced search queries ...
+	  </a>
+	</small>
+      </div><br>
+
+      
+      
+      
+      
+
+      <small lcass="form-text text-muted">
+	<a data-toggle="collapse" href="https://cmrdb.fysik.dtu.dk/c2db/#collapse1">Toggle list of keys ...</a>
+      </small><br>
+      <div id="collapse1" class="collapse">
+	<table class="table table-striped">
+	  <tbody><tr><th>Key</th><th>Description</th><th>unit</th></tr>
+	  
+	  <tr><td>A</td><td>Single-ion anisotropy (out-of-plane)</td><td>meV</td></tr>
+	  
+	  <tr><td>age</td><td>Time since creation</td><td></td></tr>
+	  
+	  <tr><td>alphax</td><td>Static total polarizability (x)</td><td>Å</td></tr>
+	  
+	  <tr><td>alphax_el</td><td>Static interband polarizability (x)</td><td>Å</td></tr>
+	  
+	  <tr><td>alphax_lat</td><td>Static lattice polarizability (x)</td><td>Å</td></tr>
+	  
+	  <tr><td>alphay</td><td>Static total polarizability (y)</td><td>Å</td></tr>
+	  
+	  <tr><td>alphay_el</td><td>Static interband polarizability (y)</td><td>Å</td></tr>
+	  
+	  <tr><td>alphay_lat</td><td>Static lattice polarizability (y)</td><td>Å</td></tr>
+	  
+	  <tr><td>alphaz</td><td>Static total polarizability (z)</td><td>Å</td></tr>
+	  
+	  <tr><td>alphaz_el</td><td>Static interband polarizability (z)</td><td>Å</td></tr>
+	  
+	  <tr><td>alphaz_lat</td><td>Static lattice polarizability (z)</td><td>Å</td></tr>
+	  
+	  <tr><td>asr_id</td><td>Material unique ID</td><td></td></tr>
+	  
+	  <tr><td>c_11</td><td>Stiffness tensor, 11-component</td><td>N/m<sup>dim-1</sup></td></tr>
+	  
+	  <tr><td>c_12</td><td>Stiffness tensor, 12-component</td><td>N/m<sup>dim-1</sup></td></tr>
+	  
+	  <tr><td>c_13</td><td>Stiffness tensor, 13-component</td><td>N/m<sup>dim-1</sup></td></tr>
+	  
+	  <tr><td>c_21</td><td>Stiffness tensor, 21-component</td><td>N/m<sup>dim-1</sup></td></tr>
+	  
+	  <tr><td>c_22</td><td>Stiffness tensor, 22-component</td><td>N/m<sup>dim-1</sup></td></tr>
+	  
+	  <tr><td>c_23</td><td>Stiffness tensor, 23-component</td><td>N/m<sup>dim-1</sup></td></tr>
+	  
+	  <tr><td>c_31</td><td>Stiffness tensor, 31-component</td><td>N/m<sup>dim-1</sup></td></tr>
+	  
+	  <tr><td>c_32</td><td>Stiffness tensor, 32-component</td><td>N/m<sup>dim-1</sup></td></tr>
+	  
+	  <tr><td>c_33</td><td>Stiffness tensor, 33-component</td><td>N/m<sup>dim-1</sup></td></tr>
+	  
+	  <tr><td>calculator</td><td>ASE-calculator name</td><td></td></tr>
+	  
+	  <tr><td>cbm</td><td>Conduction band minimum</td><td>eV</td></tr>
+	  
+	  <tr><td>cbm_gw</td><td>Conduction band minimum (G₀W₀)</td><td>eV</td></tr>
+	  
+	  <tr><td>cbm_hse</td><td>Conduction band minimum (HSE06)</td><td>eV</td></tr>
+	  
+	  <tr><td>cell_area</td><td>Area of unit-cell</td><td>`Å²`</td></tr>
+	  
+	  <tr><td>charge</td><td>Net charge in unit cell</td><td>|e|</td></tr>
+	  
+	  <tr><td>class</td><td>Material class</td><td></td></tr>
+	  
+	  <tr><td>cod_id</td><td>Related COD id</td><td></td></tr>
+	  
+	  <tr><td>crystal_type</td><td>Crystal type</td><td></td></tr>
+	  
+	  <tr><td>dE_zx</td><td>Magnetic anisotropy (E&lt;sub&gt;z&lt;/sub&gt; - E&lt;sub&gt;x&lt;/sub&gt;)</td><td>meV/unit cell</td></tr>
+	  
+	  <tr><td>dE_zy</td><td>Magnetic anisotropy (E&lt;sub&gt;z&lt;/sub&gt; - E&lt;sub&gt;y&lt;/sub&gt;)</td><td>meV/unit cell</td></tr>
+	  
+	  <tr><td>dipz</td><td>Out-of-plane dipole along +z axis</td><td>e · Å/unit cell</td></tr>
+	  
+	  <tr><td>doi</td><td>Monolayer reported DOI</td><td></td></tr>
+	  
+	  <tr><td>dos_at_ef_nosoc</td><td>Density of states at the Fermi level w/o soc.</td><td>states/(eV * unit cell)</td></tr>
+	  
+	  <tr><td>dos_at_ef_soc</td><td>Density of states at the Fermi level</td><td>states/(eV * unit cell)</td></tr>
+	  
+	  <tr><td>dynamic_stability_phonons</td><td>Phonon dynamic stability (low/high)</td><td></td></tr>
+	  
+	  <tr><td>dynamic_stability_stiffness</td><td>Stiffness dynamic stability (low/high)</td><td></td></tr>
+	  
+	  <tr><td>E_B</td><td>Exciton binding energy from BSE</td><td>eV</td></tr>
+	  
+	  <tr><td>E_x</td><td>Soc. total energy, x-direction</td><td>eV/unit cell</td></tr>
+	  
+	  <tr><td>E_y</td><td>Soc. total energy, y-direction</td><td>eV/unit cell</td></tr>
+	  
+	  <tr><td>E_z</td><td>Soc. total energy, z-direction</td><td>eV/unit cell</td></tr>
+	  
+	  <tr><td>efermi</td><td>Fermi level</td><td>eV</td></tr>
+	  
+	  <tr><td>ehull</td><td>Energy above convex hull</td><td>eV/atom</td></tr>
+	  
+	  <tr><td>emass_cb_dir1</td><td>Conduction band effective mass, direction 1</td><td>m<sub>e</sub></td></tr>
+	  
+	  <tr><td>emass_cb_dir2</td><td>Conduction band effective mass, direction 2</td><td>m<sub>e</sub></td></tr>
+	  
+	  <tr><td>emass_vb_dir1</td><td>Valence band effective mass, direction 1</td><td>m<sub>e</sub></td></tr>
+	  
+	  <tr><td>emass_vb_dir2</td><td>Valence band effective mass, direction 2</td><td>m<sub>e</sub></td></tr>
+	  
+	  <tr><td>energy</td><td>Total energy</td><td>eV</td></tr>
+	  
+	  <tr><td>evac</td><td>Vacuum level</td><td>eV</td></tr>
+	  
+	  <tr><td>evacdiff</td><td>Vacuum level difference</td><td>eV</td></tr>
+	  
+	  <tr><td>first_class_material</td><td>A first class material marks a physical material.</td><td>bool</td></tr>
+	  
+	  <tr><td>fmax</td><td>Maximum force</td><td>eV/Ang</td></tr>
+	  
+	  <tr><td>folder</td><td>Path to collection folder</td><td></td></tr>
+	  
+	  <tr><td>formula</td><td>Chemical formula</td><td></td></tr>
+	  
+	  <tr><td>gap</td><td>Band gap</td><td>eV</td></tr>
+	  
+	  <tr><td>gap_dir</td><td>Direct band gap</td><td>eV</td></tr>
+	  
+	  <tr><td>gap_dir_gw</td><td>Direct band gap (G₀W₀)</td><td>eV</td></tr>
+	  
+	  <tr><td>gap_dir_hse</td><td>Direct band gap (HSE06)</td><td>eV</td></tr>
+	  
+	  <tr><td>gap_dir_nosoc</td><td>Direct gap w/o soc.</td><td>eV</td></tr>
+	  
+	  <tr><td>gap_gw</td><td>Band gap (G₀W₀)</td><td>eV</td></tr>
+	  
+	  <tr><td>gap_hse</td><td>Band gap (HSE06)</td><td>eV</td></tr>
+	  
+	  <tr><td>gap_nosoc</td><td>Gap w/o soc.</td><td>eV</td></tr>
+	  
+	  <tr><td>has_inversion_symmetry</td><td>Material has inversion symmetry</td><td></td></tr>
+	  
+	  <tr><td>hform</td><td>Heat of formation</td><td>eV/atom</td></tr>
+	  
+	  <tr><td>icsd_id</td><td>Related ICSD id</td><td></td></tr>
+	  
+	  <tr><td>id</td><td>Uniqe row ID</td><td></td></tr>
+	  
+	  <tr><td>is_magnetic</td><td>Material is magnetic</td><td></td></tr>
+	  
+	  <tr><td>J</td><td>Nearest neighbor exchange coupling</td><td>meV</td></tr>
+	  
+	  <tr><td>lam</td><td>Anisotropic exchange (out-of-plane)</td><td>meV</td></tr>
+	  
+	  <tr><td>magmom</td><td>Magnetic moment</td><td>au</td></tr>
+	  
+	  <tr><td>magstate</td><td>Magnetic state</td><td></td></tr>
+	  
+	  <tr><td>mass</td><td>Sum of atomic masses in unit cell</td><td>au</td></tr>
+	  
+	  <tr><td>minhessianeig</td><td>Minimum eigenvalue of Hessian</td><td>`eV/Å²`</td></tr>
+	  
+	  <tr><td>N_nn</td><td>Number of nearest neighbors</td><td></td></tr>
+	  
+	  <tr><td>natoms</td><td>Number of atoms</td><td></td></tr>
+	  
+	  <tr><td>nspins</td><td>Number of spins in calculator</td><td></td></tr>
+	  
+	  <tr><td>pbc</td><td>Periodic boundary conditions</td><td></td></tr>
+	  
+	  <tr><td>plasmafrequency_x</td><td>2D plasma frequency (x)</td><td>eV/Å<sup>0.5</sup></td></tr>
+	  
+	  <tr><td>plasmafrequency_y</td><td>2D plasma frequency (y)</td><td>eV/Å<sup>0.5</sup></td></tr>
+	  
+	  <tr><td>pointgroup</td><td>Point group</td><td></td></tr>
+	  
+	  <tr><td>smax</td><td>Maximum stress on unit cell</td><td>eV/Ang<sup>3</sup></td></tr>
+	  
+	  <tr><td>spacegroup</td><td>Space group</td><td></td></tr>
+	  
+	  <tr><td>speed_of_sound_x</td><td>Speed of sound (x)</td><td>m/s</td></tr>
+	  
+	  <tr><td>speed_of_sound_y</td><td>Speed of sound (y)</td><td>m/s</td></tr>
+	  
+	  <tr><td>spgnum</td><td>Space group number</td><td></td></tr>
+	  
+	  <tr><td>spin</td><td>Maximum value of S_z at magnetic sites</td><td></td></tr>
+	  
+	  <tr><td>spin_axis</td><td>Magnetic easy axis</td><td></td></tr>
+	  
+	  <tr><td>stoichiometry</td><td>Stoichiometry</td><td></td></tr>
+	  
+	  <tr><td>thermodynamic_stability_level</td><td>Thermodynamic stability level</td><td></td></tr>
+	  
+	  <tr><td>Topology</td><td>Band topology</td><td></td></tr>
+	  
+	  <tr><td>uid</td><td>Unique identifier</td><td></td></tr>
+	  
+	  <tr><td>unique_id</td><td>Random (unique) ID</td><td></td></tr>
+	  
+	  <tr><td>user</td><td>Username</td><td></td></tr>
+	  
+	  <tr><td>vbm</td><td>Valence band maximum</td><td>eV</td></tr>
+	  
+	  <tr><td>vbm_gw</td><td>Valence band maximum (G₀W₀)</td><td>eV</td></tr>
+	  
+	  <tr><td>vbm_hse</td><td>Valence band maximum (HSE06)</td><td>eV</td></tr>
+	  
+	  <tr><td>volume</td><td>Volume of unit cell</td><td>Ang<sup>3</sup></td></tr>
+	  
+	  <tr><td>workfunction</td><td>Work function (avg. if finite dipole)</td><td>eV</td></tr>
+	  
+	</tbody></table>
+      </div>
+    </form>
+  </div>
+
+  <div id="database1"><div class="row">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+
+    <!-- Database Table -->
+
+      <div class="row">
+        <div class="col-xs-6">
+          <b>
+          Displaying rows 1-200 out of 4034
+          </b>
+          
+          <a href="https://cmrdb.fysik.dtu.dk/c2db/?query=first_class_material=True"> (direct link) </a>
+          
+        </div>
+
+        <div class="col-xs-6">
+          <div class="btn-group pull-right">
+            <button type="button" class="btn btn-default dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Add Column <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;plasmafrequency_x&#39;)">
+              2D plasma frequency (x) (plasmafrequency_x)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;plasmafrequency_y&#39;)">
+              2D plasma frequency (y) (plasmafrequency_y)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;first_class_material&#39;)">
+              A first class material marks a physical material. (first_class_material)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;calculator&#39;)">
+              ASE-calculator name (calculator)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;lam&#39;)">
+              Anisotropic exchange (out-of-plane) (lam)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;cell_area&#39;)">
+              Area of unit-cell (cell_area)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;gap&#39;)">
+              Band gap (gap)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;gap_gw&#39;)">
+              Band gap (G₀W₀) (gap_gw)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;gap_hse&#39;)">
+              Band gap (HSE06) (gap_hse)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;Topology&#39;)">
+              Band topology (Topology)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;emass_cb_dir1&#39;)">
+              Conduction band effective mass, direction 1 (emass_cb_dir1)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;emass_cb_dir2&#39;)">
+              Conduction band effective mass, direction 2 (emass_cb_dir2)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;cbm&#39;)">
+              Conduction band minimum (cbm)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;cbm_gw&#39;)">
+              Conduction band minimum (G₀W₀) (cbm_gw)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;cbm_hse&#39;)">
+              Conduction band minimum (HSE06) (cbm_hse)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;crystal_type&#39;)">
+              Crystal type (crystal_type)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;dos_at_ef_soc&#39;)">
+              Density of states at the Fermi level (dos_at_ef_soc)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;dos_at_ef_nosoc&#39;)">
+              Density of states at the Fermi level w/o soc. (dos_at_ef_nosoc)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;gap_dir&#39;)">
+              Direct band gap (gap_dir)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;gap_dir_gw&#39;)">
+              Direct band gap (G₀W₀) (gap_dir_gw)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;gap_dir_hse&#39;)">
+              Direct band gap (HSE06) (gap_dir_hse)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;gap_dir_nosoc&#39;)">
+              Direct gap w/o soc. (gap_dir_nosoc)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;ehull&#39;)">
+              Energy above convex hull (ehull)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;E_B&#39;)">
+              Exciton binding energy from BSE (E_B)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;efermi&#39;)">
+              Fermi level (efermi)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;gap_nosoc&#39;)">
+              Gap w/o soc. (gap_nosoc)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;hform&#39;)">
+              Heat of formation (hform)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;dE_zx&#39;)">
+              Magnetic anisotropy (E&lt;sub&gt;z&lt;/sub&gt; - E&lt;sub&gt;x&lt;/sub&gt;) (dE_zx)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;dE_zy&#39;)">
+              Magnetic anisotropy (E&lt;sub&gt;z&lt;/sub&gt; - E&lt;sub&gt;y&lt;/sub&gt;) (dE_zy)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;spin_axis&#39;)">
+              Magnetic easy axis (spin_axis)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;magmom&#39;)">
+              Magnetic moment (magmom)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;magstate&#39;)">
+              Magnetic state (magstate)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;class&#39;)">
+              Material class (class)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;has_inversion_symmetry&#39;)">
+              Material has inversion symmetry (has_inversion_symmetry)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;is_magnetic&#39;)">
+              Material is magnetic (is_magnetic)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;asr_id&#39;)">
+              Material unique ID (asr_id)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;fmax&#39;)">
+              Maximum force (fmax)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;smax&#39;)">
+              Maximum stress on unit cell (smax)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;spin&#39;)">
+              Maximum value of S_z at magnetic sites (spin)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;minhessianeig&#39;)">
+              Minimum eigenvalue of Hessian (minhessianeig)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;doi&#39;)">
+              Monolayer reported DOI (doi)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;J&#39;)">
+              Nearest neighbor exchange coupling (J)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;charge&#39;)">
+              Net charge in unit cell (charge)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;natoms&#39;)">
+              Number of atoms (natoms)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;N_nn&#39;)">
+              Number of nearest neighbors (N_nn)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;nspins&#39;)">
+              Number of spins in calculator (nspins)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;dipz&#39;)">
+              Out-of-plane dipole along +z axis (dipz)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;folder&#39;)">
+              Path to collection folder (folder)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;pbc&#39;)">
+              Periodic boundary conditions (pbc)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;dynamic_stability_phonons&#39;)">
+              Phonon dynamic stability (low/high) (dynamic_stability_phonons)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;pointgroup&#39;)">
+              Point group (pointgroup)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;unique_id&#39;)">
+              Random (unique) ID (unique_id)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;cod_id&#39;)">
+              Related COD id (cod_id)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;icsd_id&#39;)">
+              Related ICSD id (icsd_id)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;A&#39;)">
+              Single-ion anisotropy (out-of-plane) (A)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;E_x&#39;)">
+              Soc. total energy, x-direction (E_x)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;E_y&#39;)">
+              Soc. total energy, y-direction (E_y)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;E_z&#39;)">
+              Soc. total energy, z-direction (E_z)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;spacegroup&#39;)">
+              Space group (spacegroup)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;spgnum&#39;)">
+              Space group number (spgnum)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;speed_of_sound_x&#39;)">
+              Speed of sound (x) (speed_of_sound_x)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;speed_of_sound_y&#39;)">
+              Speed of sound (y) (speed_of_sound_y)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;alphax_el&#39;)">
+              Static interband polarizability (x) (alphax_el)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;alphay_el&#39;)">
+              Static interband polarizability (y) (alphay_el)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;alphaz_el&#39;)">
+              Static interband polarizability (z) (alphaz_el)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;alphax_lat&#39;)">
+              Static lattice polarizability (x) (alphax_lat)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;alphay_lat&#39;)">
+              Static lattice polarizability (y) (alphay_lat)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;alphaz_lat&#39;)">
+              Static lattice polarizability (z) (alphaz_lat)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;alphax&#39;)">
+              Static total polarizability (x) (alphax)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;alphay&#39;)">
+              Static total polarizability (y) (alphay)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;alphaz&#39;)">
+              Static total polarizability (z) (alphaz)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;dynamic_stability_stiffness&#39;)">
+              Stiffness dynamic stability (low/high) (dynamic_stability_stiffness)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;c_11&#39;)">
+              Stiffness tensor, 11-component (c_11)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;c_12&#39;)">
+              Stiffness tensor, 12-component (c_12)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;c_13&#39;)">
+              Stiffness tensor, 13-component (c_13)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;c_21&#39;)">
+              Stiffness tensor, 21-component (c_21)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;c_22&#39;)">
+              Stiffness tensor, 22-component (c_22)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;c_23&#39;)">
+              Stiffness tensor, 23-component (c_23)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;c_31&#39;)">
+              Stiffness tensor, 31-component (c_31)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;c_32&#39;)">
+              Stiffness tensor, 32-component (c_32)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;c_33&#39;)">
+              Stiffness tensor, 33-component (c_33)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;stoichiometry&#39;)">
+              Stoichiometry (stoichiometry)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;mass&#39;)">
+              Sum of atomic masses in unit cell (mass)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;thermodynamic_stability_level&#39;)">
+              Thermodynamic stability level (thermodynamic_stability_level)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;age&#39;)">
+              Time since creation (age)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;energy&#39;)">
+              Total energy (energy)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;id&#39;)">
+              Uniqe row ID (id)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;uid&#39;)">
+              Unique identifier (uid)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;user&#39;)">
+              Username (user)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;evac&#39;)">
+              Vacuum level (evac)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;evacdiff&#39;)">
+              Vacuum level difference (evacdiff)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;emass_vb_dir1&#39;)">
+              Valence band effective mass, direction 1 (emass_vb_dir1)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;emass_vb_dir2&#39;)">
+              Valence band effective mass, direction 2 (emass_vb_dir2)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;vbm&#39;)">
+              Valence band maximum (vbm)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;vbm_gw&#39;)">
+              Valence band maximum (G₀W₀) (vbm_gw)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;vbm_hse&#39;)">
+              Valence band maximum (HSE06) (vbm_hse)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;volume&#39;)">
+              Volume of unit cell (volume)</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;toggle&#39;,
+                                                   &#39;workfunction&#39;)">
+              Work function (avg. if finite dipole) (workfunction)</a></li>
+            
+            </ul>
+          </div>
+
+          <div class="btn-group pull-right">
+            <button type="button" class="btn btn-default dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Rows: 200 <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;limit&#39;,
+                                                   10)">10</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;limit&#39;,
+                                                   25)">25</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;limit&#39;,
+                                                   50)">50</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;limit&#39;,
+                                                   100)">100</a></li>
+            
+              <li><a href="javascript:update_table(88,
+                                                   &#39;limit&#39;,
+                                                   200)">200</a></li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-body">
+    </div>
+
+    <!-- Table -->
+    <table id="rows" class="table table-striped">
+
+    <tbody><tr>
+      <th class="text-center">
+
+      
+      
+
+      
+        <span data-toggle="tooltip" title="key: formul">Formula</span>
+      
+      <a href="javascript:update_table(88, &#39;toggle&#39;, &#39;formula&#39;)" data-toggle="tooltip" title="Remove column">✕</a>
+      </th>
+    </tr>
+
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Be4-09dd42ad034e">Be4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/As4O8-5242a449d950">As4O8
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/As4Ca4-bf7bbbdbefe0">Ca4As4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Fe4S8-897195c26aff">Fe4S8
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/In2Se2-0a48e35c06ea">In2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Sc4S6-d89434262366">Sc4S6
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/V2O5-feec586ec844">V2O5
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/B2H2S2Zr3-edd0bfaaecfb">Zr3B2H2S2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Zr2Te10-3f609a2e7630">Zr2Te10
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/MgAl2Se4-6abc5afac004">Al2MgSe4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ba2Mg2Pb2-a1c25a50d869">Ba2Mg2Pb2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ca2Mn2Si2-7ff0ce39e113">Ca2Mn2Si2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Br2Cr2O2-40d95997a4f9">Cr2Br2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Fe2Ga2S5-de048496d85d">Fe2Ga2S5
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ge2Hf2Te8-8a1880beea0b">Hf2Ge2Te8
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/C2H2O2Ti3-b2d22251cb52">Ti3C2H2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/I4In4Te4-feae7ba557bf">In4I4Te4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Cl2Li2O4-f49acec9436a">Li2Cl2O4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ge2Mn2Sr2-e006db3e03ce">Mn2Sr2Ge2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/H2Na2O2-77f07234558a">Na2H2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Nb2Br4Se4-f4b12fb88150">Nb2Br4Se4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/TeNb3Cl7-eaf57194260a">Nb3Cl7Te
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ni2Ta4S10-7b4068300a3d">Ni2Ta4S10
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Pd2Se2O6-2e7b44920343">Pd2O6Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Tl2Pt4Te6-bfab8880b6ae">Pt4Tl2Te6
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/I4O4Sc4-c76a18435100">Sc4I4O4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/TeTa3I7-88d0d3a29896">Ta3I7Te
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/W2Sb4O12-1a26b273a618">W2O12Sb4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Cl2N2Zr2-386f2c8b7701">Zr2Cl2N2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/BaTa2O7-877ae50c1f18">BaTa2O7
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CdGaInS4-541ddc92f3ef">CdGaInS4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/In2Se2-178396d52e5c">In2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Cl4Cu4H4O4-c4a98b92e296">Cu4Cl4H4O4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/HfNa2H6O6-f9a05481b329">HfNa2H6O6
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/H2Te2Li6O8-fb8286ba414b">Li6H2O8Te2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/PtNa2H6O6-2ebab5728410">Na2PtH6O6
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/F2P2Sn2O6-5b3985dc61ef">Sn2F2O6P2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/C2Na2O2H6N8-6e08523b4e88">Na2C2H6N8O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Si2-90e674c14ad3">Si2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/H2N2O2Nb3-fec41bfce930">Nb3H2N2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/C2F2Mn3-929ffb1f09ed">Mn3C2F2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/C2O2Sc3-91bbf29a8a97">Sc3C2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/F2N2W3-ae37333fa0d9">W3F2N2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/H2O2C3Hf4-f58dea030e75">Hf4C3H2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/H2O2N3Nb4-3334754d9034">Nb4H2N3O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/C2Nb3-9c5e5b8aded3">Nb3C2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/N2Ti3-1c5d1325f0c2">Ti3N2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/F2C3Ti4-1912543ecb09">Ti4C3F2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/F2N3Zr4-3c9d350bfdd1">Zr4F2N3
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/O2N3Mn4-24ea907e3c1d">Mn4N3O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/C3Sc4-ebdc35e1cc66">Sc4C3
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/N3V4-06ddab38962f">V4N3
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ag2Se2-248fffac5959">Ag2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Al2Se2-129a514b51ad">Al2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Au2I2-2a704c8deb56">Au2I2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/BC-faccaa7b3b2b">BC
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Bi2S2-35768ef99ea0">Bi2S2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Br2Co2-83f0609e2ecd">Co2Br2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Br2In2-97f88130feea">In2Br2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Br2Pb2-f4606df31de7">Pb2Br2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Br2Sc2-d62ee63a9db1">Sc2Br2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Br2Zn2-ed01a64ff592">Zn2Br2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Cd2F2-4db4a271463c">Cd2F2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Cl2Cu2-820b7699bd43">Cu2Cl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Cl2Mn2-17fef7a63d09">Mn2Cl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Cl2Rb2-c867862764fc">Rb2Cl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Cl2Ti2-eb96c223dc67">Ti2Cl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Co2I2-8ae8bdf96f94">Co2I2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Co2Te2-58378d931a56">Co2Te2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Cu2O2-576c1fb6e6cb">Cu2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/F2Ge2-aac9cc861c7f">F2Ge2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/F2Os2-63abc51956be">Os2F2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/F2Si2-aa042bf2fe06">F2Si2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/F2Zr2-2a7abcf1340e">Zr2F2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Fe2Te2-b49eca087529">Fe2Te2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ga2Te2-55c23ca88a05">Ga2Te2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/GeTe-eadd37f03ca5">GeTe
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Hf2Se2-a2f6b7b424d2">Hf2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Hg2Te2-e2842dbafac1">Hg2Te2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/I2Os2-b275d1315c2f">Os2I2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/I2Sb2-d7e53bedc66f">I2Sb2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/I2W2-e6172d361849">W2I2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ir2Se2-53337987551a">Ir2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Mo2O2-3b2f590d43e0">Mo2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Mo2Te2-97df80e1bcd4">Mo2Te2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Nb2Te2-84e75d57212e">Nb2Te2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ni2Se2-f42a5debbda4">Ni2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/O2Pt2-33a0441eb478">Pt2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/O2Ta2-5ef897688a92">Ta2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/O2Zr2-afc70c664605">Zr2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Pb2S2-5995ac9fd69f">Pb2S2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Pd2S2-7b555d5cc88c">Pd2S2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Pt2Se2-8c44b9ea47c4">Pt2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Te2V2-67aabbf6050d">V2Te2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ag2Br4-2f6adf602fef">Ag2Br4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Re2Se2-88b3666fca59">Re2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Rh2Se2-f3fc5abdb030">Rh2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ru2Se2-e46001a9dca1">Ru2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/S2Sn2-7a8373382b33">Sn2S2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/S2Tl2-f5e178117127">Tl2S2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/S2Zr2-6765bdaaaa9a">Zr2S2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Sc2Te2-8ccfc750f219">Sc2Te2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Se2Ti2-4faf449bf4df">Ti2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Se2W2-5bb65bd1e2e0">W2Se2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ta2Te2-14789ef267c9">Ta2Te2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ag2S4-6f1b5ccc63c1">Ag2S4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/AsBr2-7dad49abf271">AsBr2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/AuBr2-a2be5af7c917">AuBr2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Au2S4-12e6d91b22d0">Au2S4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/BaCl2-00a09165a480">BaCl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/BiI2-a000539092c6">BiI2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CCa2-b4fd8d8a755e">Ca2C
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CaCl2-3ca106221b9b">CaCl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CdCl2-ff50eed37ec7">CdCl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CoBr2-807b6a88f950">CoBr2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Co4S8-cdea8fd17b0b">Co4S8
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CrBi2-b5cf68fe8f54">Bi2Cr
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CrO2-aa2856f95afa">CrO2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CrTe2-c27909f87919">CrTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CuI2-fe94714b3303">CuI2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CuTe2-02074592befa">CuTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/FeO2-28c98c935df2">FeO2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/FeTe2-cbe6e1cec124">FeTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ga2Se4-f68d8e6e1e80">Ga2Se4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/GeO2-77905aa4e75f">GeO2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/HfBi2-17f1085c54c9">Bi2Hf
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/HfI2-8136493cfa46">HfI2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/HfTe2-59c0e014651d">HfTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/HgO2-e979c6fac343">HgO2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/InCl2-84175a617b53">InCl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/IrBr2-47844e224011">IrBr2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ir2S4-48010d2488cf">Ir2S4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/IrTe2-5b9e721c41c3">IrTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/MnBr2-6e4f4724ab75">MnBr2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/MnS2-a1fb52b45531">MnS2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/MoBr2-ec7176a0b43d">MoBr2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/MoO2-c5a85cee1f58">MoO2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/MoTe2-03aa23bfac74">MoTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/NY2-153320ab0881">Y2N
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Nb2I4-198306484fe5">Nb2I4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/NbSe2-7c30b3de2c08">NbSe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/NiI2-0e87e38a2099">NiI2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ni2Te4-5257d747113d">Ni2Te4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/TiBi2-f9ee64a801f3">Bi2Ti
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Ti2O4-312489eced4d">Ti2O4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/OsLi2-467fe0db149b">Li2Os
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Os2Te4-20733aabace8">Os2Te4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/PbLi2-2fbec647b349">Li2Pb
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/PbTe2-dbf3271b4bb1">PbTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/PdS2-02762a09ebbf">PdS2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/PtCl2-95d27d2ddeca">PtCl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/PtS2-b4af6c0363a1">PtS2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/ReBr2-a50c8ccbdbbd">ReBr2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Tl2Br4-194d138edf5e">Tl2Br4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/ReO2-0ce33ebdddbc">ReO2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/ReTe2-1a0bc9402ea8">ReTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/RhI2-5cd77b1f12d6">RhI2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/RhSe2-96fa3a15f812">RhSe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/RuI2-7cf95db1f416">RuI2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/RuSe2-0c9bba85d1ee">RuSe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/SbI2-26c3bd3e8850">I2Sb
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/SbTe2-f19b502b883c">SbTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/ScO2-29671ee4dae5">ScO2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/SiTe2-ff953e49ed02">SiTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/SnS2-42a44e4e7298">SnS2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/SrCl2-e03e4067ecb2">SrCl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/TaCl2-0188222eb128">TaCl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/TaS2-593facf20319">TaS2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/TlSe2-c33a6d6e234d">TlSe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/VH2-768d02f7bb59">VH2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/V2Se4-5760463dd51d">V2Se4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/W2Cl4-6053d0c414f5">W2Cl4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/W2S4-546a2f534a01">W2S4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/WTe2-e71aeeb1aca1">WTe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/YSe2-a1f75ad3deac">YSe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/ZnSe2-024345e00adf">ZnSe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/ZrF2-461a0f3e684e">ZrF2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/ZrSe2-001dfe9a7fa2">ZrSe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/BO2Ta2-d71b9ccdac14">Ta2BO2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/BiH2O2-e20fee87bf6d">BiH2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CMo2O2-a7207a1ca187">Mo2CO2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CS2V2-d38048797ff8">V2CS2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CrH2O2-fdd272f524b0">CrH2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/NCr2F2-c82f6907a3bd">Cr2F2N
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/NMo2Se2-e9ecf928ce6a">Mo2NSe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/NSe2Ta2-ddd48ebbaa75">Ta2NSe2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/PdH2O2-d38ac266591f">PdH2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/SrF2O2-3bbaf8ef2ded">SrF2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/AgCa2Cl2O2-82ffa28b190c">AgCa2Cl2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/AuCa2I2S2-c9daadc0fe31">AuCa2I2S2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/CH2O2Zr2-a7cf1daeaa38">Zr2CH2O2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/NH2Mn2O2-af38ffeefb90">Mn2H2NO2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/MoAu2S4-29cfac904ac7">Au2MoS4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/WCu2S4-812e863395ac">Cu2WS4
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/GaCl2Ni5-39e741e94b38">GaNi5Cl2
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/ReAg2Br6-832b3b1525d2">Ag2ReBr6
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Al2Br6-d185cf10e109">Al2Br6
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Au2Cl6-1fee35476d21">Au2Cl6
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/Bi2Sn6-6bd3b76ad787">Bi2Sn6
+        </a>
+        </td>
+      
+      
+      </tr>
+    <tr id="rowentry" class="rowentry"><td class="text-center">
+        <a href="https://cmrdb.fysik.dtu.dk/c2db/row/W2Cl6-de9b6fb4fc55">W2Cl6
+        </a>
+        </td>
+      
+      
+      </tr>
+    
+    </tbody></table>
+  </div>
+</div>
+
+
+<div class="text-center">
+  <nav aria-label="Page navigation">
+  <ul class="pagination pagination-sm">
+
+  
+    
+    
+    
+      <li>
+      <a href="https://cmrdb.fysik.dtu.dk/c2db/#" aria-label="Previous">
+      <span aria-hidden="true">«</span>
+      </a>
+      </li>
+    
+  
+    
+    
+    
+      <li class="active"><a href="https://cmrdb.fysik.dtu.dk/c2db/#">1</a></li>
+    
+  
+    
+    
+      
+    
+    
+      <li><a href="javascript:update_table(88, &#39;page&#39;, 1)">2</a></li>
+    
+  
+    
+    
+      
+    
+    
+      <li><a href="javascript:update_table(88, &#39;page&#39;, 2)">3</a></li>
+    
+  
+    
+    
+      
+    
+    
+      <li><a href="javascript:update_table(88, &#39;page&#39;, 3)">4</a></li>
+    
+  
+    
+    
+      
+    
+    
+      <li><a href="javascript:update_table(88, &#39;page&#39;, 4)">5</a></li>
+    
+  
+    
+    
+    
+      <li class="inactive"><a href="https://cmrdb.fysik.dtu.dk/c2db/#">...</a></li>
+    
+  
+    
+    
+      
+    
+    
+      <li><a href="javascript:update_table(88, &#39;page&#39;, 17)">18</a></li>
+    
+  
+    
+    
+      
+    
+    
+      <li><a href="javascript:update_table(88, &#39;page&#39;, 18)">19</a></li>
+    
+  
+    
+    
+      
+    
+    
+      <li><a href="javascript:update_table(88, &#39;page&#39;, 19)">20</a></li>
+    
+  
+    
+    
+      
+    
+    
+      <li><a href="javascript:update_table(88, &#39;page&#39;, 20)">21</a></li>
+    
+  
+    
+    
+      
+    
+    
+      <li>
+      <a href="javascript:update_table(88, &#39;page&#39;, 1)" aria-label="Next">
+      <span aria-hidden="true">»</span>
+      </a>
+      </li>
+    
+  
+
+  </ul>
+  </nav>
+</div></div>
+
+</div> <!-- class="container" -->
+
+<div class="text-center">
+  This work is licensed under a
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    <img alt="Creative Commons License" style="border-width:0" src="./C2DB-1_files/88x31.png"></a>
+</div>
+<br>
+
+
+
+</body></html>
