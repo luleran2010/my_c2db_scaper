@@ -29,9 +29,9 @@ def build_structure(raw_data_json):
     if cell is None or poscar is None: 
         print('!!! Could not build structure !!! ')
     return cell, poscar 
-    
+
 def protocol_2(raw_data_json): 
-    print("\n!!! POSSIBLE ISSUE: Could not build structure via normal route, using alternatice protocol !!!")
+    print("\n!!! POSSIBLE ISSUE: Could not build structure via protocol #1, using alternatice protocol !!!")
     rdf = load_json(raw_data_json)
     # get latice
     matrix = rdf['structure.json']['1']['cell']['array']['__ndarray__'][2]
