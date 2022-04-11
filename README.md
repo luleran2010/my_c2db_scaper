@@ -1,6 +1,9 @@
 # my_c2db_scaper
-A small repo to automatically scrape the C2DB database and build a structure library. 
-Automatically scrapes C2DB database. Structures are created from the raw JSON files. Several important materials properties are also extracted and saved with the structure data. All data entrees are then compressed for longterm storage. 
+A small repo to automatically scrape the C2DB database - an extensize material database of 2D materials and properties calculated via DFT. 
+Features: 
+
+Will build a structure library of POSCARs and extract important material proeperty data. 
+Structures are created from the raw JSON files. Several important materials properties are also extracted and saved with the structure data. All data entrees are then compressed for longterm storage. 
 
 ## Environment
 Environment Name: **c2db-scraper**.  
