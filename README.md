@@ -10,11 +10,16 @@ Important Packages:
 
 Can be build with the environment.yml file via `conda env create -f environment.yml`
 
+Install the project src code  
+`conda activate c2db-scraper`  
+`pip install -e .`  
+
+
 
 ## ToDo: 
-- [ ] compress raw data JSON file for LT storage. 
-- [ ] extract and build structure from raw JSON data. 
-- [ ] extract important material properties found in the C2DB database. 
->- [ ] bandgap energy (GGA, HSE, other) 
->- [ ] thermoproperties (heat of formation, thermo stability, e_above_hull) 
+- [x] compress raw data JSON file for LT storage. 
+- [x] extract and build structure from raw JSON data. 
+- [x] extract important material properties found in the C2DB database. 
+>- [x] bandgap energy (GGA, HSE, other) 
+>- [x] thermoproperties (heat of formation, thermo stability, e_above_hull) 
 >- [ ] optical properties? 
