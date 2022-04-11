@@ -14,39 +14,45 @@ import os
 from pathlib import Path
 import sys 
 import subprocess
+from termios import CR2
+import os
+from pathlib import Path
+import numpy as np
+import matplotlib.pyplot as plt
+import sys
+import time
+import random
+
+from sympy import comp
+
+from scrapc2db.bash_util import build_wgets
+from scrapc2db.structure import build_structure
+from scrapc2db.util import load_json, dump_json
+from scrapc2db.data import ScraperC2DB
 
 # get file base dir
 basedir = Path(os.path.dirname(os.path.abspath(__file__)))
+topdir  = basedir.joinpath('.')
 
-
-def build(): 
-    # call build script
-    subprocess.call(['sh',str(basedir.joinpath('./scripts/build.sh'))])
     
-    # return all the wgets in a list 
-    with open('download.sh', 'r') as fh: 
-        lines = fh.readlines() 
-    return lines
-
-def count_lines(filename):
-    with open(filename, 'r') as fh: 
-        lines = fh.readlines() 
-    return len(lines)
-
 
 
 if __name__ == '__main__':
+    import pandas as pd 
+
     dir0 = Path(os.getcwd())
-    ## build get file
-    os.chdir('data/raw/webpage_htmls')
-    wgets = build() 
+    foo = ScraperC2DB(compress_files=False) 
+    foo.build() 
+
+    df = pd.DataFrame(foo.all_data).T 
+    df.to_csv('c2db_lookup.csv')
+    df.to_pickle('c2db_lookup.pkl')
+
     
-    # download files to interim    
-    os.chdir(dir0.joinpath('data/interim'))
+
     
-    # download files with wait
-    for wget in wgets[:3]: 
-        os.system(wget.strip())
+
+
 
 
 
