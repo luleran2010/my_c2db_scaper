@@ -3,7 +3,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,linux,vim,visualstudiocode
 
 ### My custom ignores ### 
-
+data/interim/*.json
+data/processed/*.json
 
 ### Linux ###
 *~
