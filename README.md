@@ -15,6 +15,17 @@ Install the project src code
 `conda activate c2db-scraper`  
 `pip install -e .`  
 
+## How to Use
+run main.py `python main.py`  
+or   
+use packaged python code 
+
+```bat
+from scrapc2db.data import ScraperC2DB
+scaper = ScraperC2DB(get_structures=True, get_material_data=True, compress_files=True, skip_existing=True)
+scraper.build()
+```
+
 ## Structures
 All C2DB structures are converted to POSCAR files
 
