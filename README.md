@@ -1,5 +1,8 @@
 # my_c2db_scaper
 A small repo to automatically scrape the C2DB database - an extensize material database of 2D materials and properties calculated via DFT (https://cmrdb.fysik.dtu.dk/c2db/)  
+
+Please cite the origional source: https://iopscience.iop.org/article/10.1088/2053-1583/ac1059
+
 Features:
 * Automatically downloads raw data JSONs and saves to disk.  
 * Parses raw data JSONs to build a structure file (POSCAR).  
