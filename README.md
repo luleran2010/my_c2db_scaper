@@ -1,9 +1,11 @@
 # my_c2db_scaper
-A small repo to automatically scrape the C2DB database - an extensize material database of 2D materials and properties calculated via DFT. 
-Features: 
-
-Will build a structure library of POSCARs and extract important material proeperty data. 
-Structures are created from the raw JSON files. Several important materials properties are also extracted and saved with the structure data. All data entrees are then compressed for longterm storage. 
+A small repo to automatically scrape the C2DB database - an extensize material database of 2D materials and properties calculated via DFT (https://cmrdb.fysik.dtu.dk/c2db/)  
+Features:
+* Automatically downloads raw data JSONs and saves to disk.  
+* Parses raw data JSONs to build a structure file (POSCAR).  
+* Parse raw data JSONs for several important materials properties and saves it as a small JSON file.  
+* All files are compressed for efficient storage.  
+* Can build a lookup table of the C2DB database.
 
 ## Environment
 Environment Name: **c2db-scraper**.  
@@ -18,7 +20,7 @@ Install the project src code
 `conda activate c2db-scraper`  
 `pip install -e .`  
 
-## How to Use
+## Useage
 run main.py `python main.py`  
 or   
 use packaged python code 
@@ -28,6 +30,10 @@ from scrapc2db.data import ScraperC2DB
 scaper = ScraperC2DB(get_structures=True, get_material_data=True, compress_files=True, skip_existing=True)
 scraper.build()
 ```
+
+## File Organization
+*data/interm* contains raw data files (e.g.Be4-09dd42ad034e.json). Are compressed with gzip.  
+*data/processed* contains processed data (i.e. POSCAR and material_data.json) is stored in a directory (e.g. Be4-09dd42ad034e/)     
 
 ## Structures
 All C2DB structures are converted to POSCAR files
