@@ -196,6 +196,10 @@ class ScraperC2DB ():
         if n != 0 and n%15 == 0: 
             print('\tsleeping...')
             time.sleep(30)
+        if n !=0 and n%100 == 0: 
+            print('\tsleeping...')
+            time.sleep(60*5)
+
 
     def _mk_data_directories(self): 
         if self.dir0.joinpath('data').exists() is False: 
