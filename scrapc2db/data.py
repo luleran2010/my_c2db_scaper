@@ -49,7 +49,7 @@ class ScraperC2DB ():
         
         # download c2db database from web
         os.chdir(self.data_interm)
-        for n, wget in enumerate(wgets[:20]): 
+        for n, wget in enumerate(wgets[:]): 
             os.chdir(self.data_interm) 
             rdf = wget.split()[-1]
             os.system(wget.strip())
