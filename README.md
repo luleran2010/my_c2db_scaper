@@ -2,8 +2,14 @@
 A small repo to scrape the C2DB database and build a structure library. 
 
 ## Environment
-Environment Name: c2db-scraper
-Can be build with the environment.yml file
+Environment Name: **c2db-scraper**.  
+Important Packages: 
+>Pymatgen   
+>ASE  
+>Pandas  
+
+Can be build with the environment.yml file via `conda env create -f environment.yml`
+
 
 ## ToDo: 
 - [ ] compress raw data JSON file for LT storage. 
