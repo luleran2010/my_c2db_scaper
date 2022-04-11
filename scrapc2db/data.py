@@ -24,10 +24,11 @@ from scrapc2db.structure import build_structure
 from scrapc2db.util import load_json, dump_json
 
 class ScraperC2DB (): 
-    def __init__(self, get_structures=True, get_material_data=True, compress_files=True):
+    def __init__(self, get_structures=True, get_material_data=True, compress_files=True, skip_existing=True):
         self.get_structures = get_structures
         self.get_material_data = get_material_data
         self.compress_files = compress_files 
+        self.skip_exisiting = skip_existing
         self.dir0 = Path(os.getcwd()) 
         self._mk_data_directories()
         if get_material_data is True: 
@@ -52,18 +53,23 @@ class ScraperC2DB ():
         for n, wget in enumerate(wgets[:]): 
             os.chdir(self.data_interm) 
             rdf = wget.split()[-1]
-            os.system(wget.strip())
             
-            if self.get_material_data is True: 
-                self.extraxt_mat_data(rdf)
-            
-            if self.get_structures is True: 
-                self.extraxt_struc_data(rdf)
-            
-            if self.compress_files is True: 
-                self._compress_files(rdf)
+            if self.skip_exisiting is True and Path(rdf).exists() or Path(rdf).joinpath('.gz').exists(): 
+                print('\n\tFile exists, skipping this compound')
+                continue
+            else: 
+                os.system(wget.strip())
+                
+                if self.get_material_data is True: 
+                    self.extraxt_mat_data(rdf)
+                
+                if self.get_structures is True: 
+                    self.extraxt_struc_data(rdf)
+                
+                if self.compress_files is True: 
+                    self._compress_files(rdf)
 
-            self._sleep(n)
+                self._sleep(n)
 
         # back to top dir
         os.chdir(self.dir0)
@@ -142,8 +148,11 @@ class ScraperC2DB ():
         keys = [ 'gap', 'gap_dir', 'gap_nosoc', 'gap_dir_nosoc', 'cbm', 'cbm_dir', 'vbm', 
                 'vbm_dir', 'efermi', 'dipz', 'evac', 'evacdiff', 'workfunction']
         for key in keys: 
-            mat_data[key] = rdf['results-asr.gs.json']['kwargs']['data'][key]
-        
+            try: 
+                mat_data[key] = rdf['results-asr.gs.json']['kwargs']['data'][key]
+            except: 
+                mat_data[key] = None 
+
         # get hse properties
         keys = ['gap_dir_hse', 'gap_dir_hse_nosoc', 'gap_hse', 'gap_hse_nosoc', 
                 'cbm_hse', 'cbm_hse_nosoc', 'vbm_hse', 'vbm_hse_nosoc','efermi_hse_nosoc', 'efermi_hse_soc',]
@@ -163,7 +172,10 @@ class ScraperC2DB ():
 
 
         # get magnetic properties
-        mat_data['is_magnetic'] = rdf['results-asr.magstate.json']['kwargs']['data']['is_magnetic']
+        try: 
+            mat_data['is_magnetic'] = rdf['results-asr.magstate.json']['kwargs']['data']['is_magnetic']
+        except: 
+            mat_data['is_magnetic'] = None
 
         # get bader charges
         try: 

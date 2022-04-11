@@ -41,7 +41,7 @@ if __name__ == '__main__':
     import pandas as pd 
 
     dir0 = Path(os.getcwd())
-    foo = ScraperC2DB(compress_files=False) 
+    foo = ScraperC2DB(compress_files=True) 
     foo.build() 
 
     df = pd.DataFrame(foo.all_data).T 
