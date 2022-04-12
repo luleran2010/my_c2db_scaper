@@ -3,6 +3,8 @@ A small repo to automatically scrape the C2DB database - an extensize material d
 
 Please cite the origional source: https://iopscience.iop.org/article/10.1088/2053-1583/ac1059
 
+Database is current as of 4/08/2022
+
 Features:
 * Automatically downloads raw data JSONs and saves to disk.  
 * Parses raw data JSONs to build a structure file (POSCAR).  
