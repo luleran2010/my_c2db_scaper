@@ -12,6 +12,9 @@ Features:
 * All files are compressed for efficient storage.  
 * Can build a lookup table of the C2DB database.
 
+
+![alt text](https://github.com/dwillhelm/my_c2db_scaper/blob/main/docs/figs/scraper_screenshot2.png?raw=true)
+
 ## Environment
 Environment Name: **c2db-scraper**.  
 Important Packages: 
