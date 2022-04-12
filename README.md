@@ -12,9 +12,6 @@ Features:
 * All files are compressed for efficient storage.  
 * Can build a lookup table of the C2DB database.
 
-
-![alt text](https://github.com/dwillhelm/my_c2db_scaper/blob/main/docs/figs/scraper_screenshot2.png?raw=true)
-
 ## Environment
 Environment Name: **c2db-scraper**.  
 Important Packages: 
@@ -38,6 +35,8 @@ from scrapc2db.data import ScraperC2DB
 scaper = ScraperC2DB(get_structures=True, get_material_data=True, compress_files=True, skip_existing=True)
 scraper.build()
 ```
+
+![alt text](https://github.com/dwillhelm/my_c2db_scaper/blob/main/docs/figs/scraper_screenshot2.png?raw=true)
 
 ## File Organization
 *data/interm* contains raw data files (e.g.Be4-09dd42ad034e.json). Are compressed with gzip.  
