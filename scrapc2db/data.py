@@ -82,7 +82,7 @@ class ScraperC2DB ():
                 delta_time = t1 - t0 
                 all_times.append(delta_time)
                 avg_time = sum(all_times)/len(all_times)
-                print(f'\n\nProgress: {n/n_total:.2f}%  | download time:{delta_time:.2f} sec | avg download rate {avg_time:.2f} sec')
+                print(f'\n\nProgress: {n}/{n_total}({100*(n/n_total):.2f}%)  | download time:{delta_time:.2f} sec | avg download rate {avg_time:.2f} sec')
                 print(f'\tEstimated completion time: {((n_total-n)*avg_time)/3600:.2f} hrs')
                 print('-'*30)
                 print('\n\n\n')
