@@ -36,6 +36,8 @@ scaper = ScraperC2DB(get_structures=True, get_material_data=True, compress_files
 scraper.build()
 ```
 
+![alt text](https://github.com/dwillhelm/my_c2db_scaper/blob/main/docs/figs/scraper_screenshot2.png?raw=true)
+
 ## File Organization
 *data/interm* contains raw data files (e.g.Be4-09dd42ad034e.json). Are compressed with gzip.  
 *data/processed* contains processed data (i.e. POSCAR and material_data.json) is stored in a directory (e.g. Be4-09dd42ad034e/)     
